@@ -1,0 +1,68 @@
+
+footer{
+    height: 787px;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 128px 120px 200px 120px;
+
+    
+
+    background-image: url(../assests/Background_Contacts.png);
+}
+
+
+footer{
+span{
+
+    font:var(--text-subtitle);
+    color: var(--main-purple);
+    margin-top:8px;
+}
+h3{
+    font:var(--title-md) ;
+    color: var(--Base-gray-600);
+    margin-top: 8px;
+
+}
+    p{
+   font: var(--text-md);
+   color: var(--Base-gray-500);
+   margin-bottom: 48px;
+    }
+
+
+}
+
+
+
+
+#social{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    span{
+         
+        font: var(--text-md);
+        color: var(--Base-gray-500);
+    }
+
+    
+}
+
+a{
+    text-decoration: none;
+
+    span{
+      color: blueviolet;        
+    }
+    }
+    

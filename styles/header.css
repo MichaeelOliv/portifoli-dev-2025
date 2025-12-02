@@ -1,0 +1,95 @@
+header{
+    height:750px ;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+     align-items: center;
+
+
+    background-image: url(../assests/Background_Intro.png);
+    background-size: cover;
+
+    &>img{
+        height: 112px;
+        width: 120px;
+        object-fit: cover;
+
+        border-radius:  2px solid red;
+    
+        margin-bottom: 56px;
+    }
+}
+
+
+header > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+    h1{
+        font:var(--title-lg);
+        color:var(--Base-gray-600);
+        font-size: 56px;
+        margin-bottom: 20px;
+        
+    }
+    h2{
+        font:var(--text-subtitle);
+        font-size: 20px;
+        color: var(--Base-gray-500);
+
+        span{
+         color: var(--main-red);
+         margin-bottom: 8px;
+        }
+    }
+    p{ 
+
+       font: var(--text-sm);
+        color:var(--Base-gray-400);
+    
+
+    }
+}
+
+    ul {
+        display: flex;
+        gap: 16px;
+
+    }
+      ul li{
+        margin-top: 80px;
+        display: flex;
+        padding: 8px 16px;
+        justify-content: center;
+        align-items: center;
+        gap:8px;
+        border-radius: 999px;
+        background: var(--Base-gray-300);
+
+       justify-self: 20px;
+        
+
+       p{
+        font:var(--text-md);
+        color: var(--Base-gray-500);
+       }
+      }
+
+      #botton{
+        margin-top: 94px;
+        margin-bottom: 57px;
+        img{
+            width: 32px;
+            height: 32px;
+        }
+
+      }
+
+
+
+    
